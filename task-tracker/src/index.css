@@ -1,0 +1,134 @@
+*{
+  color: white;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  position: relative;
+  border-style: solid;
+  width: 50vw;
+  padding: 20px;
+  border-radius: 10px;
+  left: 10vw;
+  background-color: #7FDBFF;
+  border-color: #001f3f;
+}
+
+.btn-add{
+  position: relative;
+  background-color: green;
+  color: white;
+  width: 7vw;
+  height: 4vh;
+  top: 25px;
+  left: 200px;
+  border-radius: 5px;
+  border: 2px white solid;
+  
+
+
+}
+
+.header{
+  display: flex;
+  background-color: #39CCCC;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  border-style: solid;
+  border-color: white;
+}
+
+.task{
+  position: relative;
+  background-color: #39CCCC;
+  border-radius: 5px;
+  width: 46vw;
+  height: 10vh;
+  padding: 10px;
+  margin: 10px;
+}
+
+.task h3{
+  position: relative;
+  margin-top: 0;
+  width: 20vw;
+  display: flex;
+}
+
+.FaTimes{
+  position: absolute;
+  left: 400px;
+  top: 10px;
+  
+}
+
+.task-reminder{
+  position: relative;
+  background-color: #39CCCC;
+  border-radius: 5px;
+  width: 46vw;
+  height: 10vh;
+  padding: 10px;
+  margin: 10px;
+  border-left: 5px solid green;
+}
+
+.task-reminder h3{
+  position: relative;
+  margin-top: 0;
+  width: 20vw;
+  display: flex;
+}
+
+.form{
+  position: relative;
+  background-color: #001f3f;
+  width: 43vw;
+  height: 15vw;
+  margin: 10px;
+  border-radius: 5px;
+  border: 7px #39CCCC solid;
+  padding: 20px;
+}
+
+.form-name{
+  margin: 10px;
+  width: 20vw;
+  border-radius: 2px;
+  border-style: none;
+    
+}
+
+.form-text{
+  border: 1px white solid;
+  width: 40vw;
+  padding: 2px;
+  margin: 10px;
+  
+}
+
+.form-label{
+  margin-left: 2px;
+}
+
+.form-checkbox{
+  position: relative;
+  top: 2px;
+}
+
+
