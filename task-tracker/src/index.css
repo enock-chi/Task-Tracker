@@ -1,6 +1,4 @@
-*{
-  color: white;
-}
+
 
 
 body {
@@ -20,11 +18,11 @@ code {
 #root{
   position: relative;
   border-style: solid;
-  width: 50vw;
+  width: 40vw;
   padding: 20px;
   border-radius: 10px;
   left: 10vw;
-  background-color: #7FDBFF;
+  background-color: white;
   border-color: #001f3f;
 }
 
@@ -37,7 +35,7 @@ code {
   top: 25px;
   left: 200px;
   border-radius: 5px;
-  border: 2px white solid;
+  border: 1px black solid;
   
 
 
@@ -45,22 +43,24 @@ code {
 
 .header{
   display: flex;
-  background-color: #39CCCC;
+  background-color: white;
   padding: 20px;
   border-radius: 5px;
   margin: 10px;
   border-style: solid;
   border-color: white;
+
 }
 
 .task{
   position: relative;
-  background-color: #39CCCC;
+  background-color: #ccc;
   border-radius: 5px;
-  width: 46vw;
+  width: 35vw;
   height: 10vh;
   padding: 10px;
   margin: 10px;
+  left: 20px;
 }
 
 .task h3{
@@ -72,19 +72,20 @@ code {
 
 .FaTimes{
   position: absolute;
-  left: 400px;
+  left: 450px;
   top: 10px;
   
 }
 
 .task-reminder{
   position: relative;
-  background-color: #39CCCC;
+  background-color: #ccc;
   border-radius: 5px;
-  width: 46vw;
+  width: 35vw;
   height: 10vh;
   padding: 10px;
   margin: 10px;
+  left: 20px;
   border-left: 5px solid green;
 }
 
@@ -97,12 +98,12 @@ code {
 
 .form{
   position: relative;
-  background-color: #001f3f;
-  width: 43vw;
+  background-color: white;
+  width: 35vw;
   height: 15vw;
   margin: 10px;
   border-radius: 5px;
-  border: 7px #39CCCC solid;
+  border: 7px black solid;
   padding: 20px;
 }
 
@@ -110,15 +111,18 @@ code {
   margin: 10px;
   width: 20vw;
   border-radius: 2px;
-  border-style: none;
+  border-style: solid;
+  color: black !important;
     
 }
 
 .form-text{
-  border: 1px white solid;
-  width: 40vw;
+  position: relative;
+  border: 1px black solid;
+  width: 30vw;
   padding: 2px;
   margin: 10px;
+  left: 20px;
   
 }
 
@@ -130,5 +134,14 @@ code {
   position: relative;
   top: 2px;
 }
+.btn{
+  color: #001f3f !important;
+  width: 30vw;
+  margin-left: 33px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-style: none;
+}
+
 
 

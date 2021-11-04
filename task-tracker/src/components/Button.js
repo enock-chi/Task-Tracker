@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Button = ({varClass, label, onClick}) => {
+const Button = ({varClass, text, onClick}) => {
   return (
      <React.Fragment>
-             <button className={varClass}>
-                    {label}
+             <button className={varClass} onClick={onClick}>
+                    {text}
              </button>
      </React.Fragment>
   )
